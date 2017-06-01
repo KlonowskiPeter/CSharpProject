@@ -11,5 +11,12 @@ namespace TaskTests
         static void Main(string[] args)
         {
         }
+
+
+        private Task<Boolean> DoLongTask()
+        {
+
+            return Task.FromResult<Boolean>(true);
+        }
     }
 }
