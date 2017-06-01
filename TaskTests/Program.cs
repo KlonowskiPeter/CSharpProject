@@ -18,5 +18,11 @@ namespace TaskTests
 
             return Task.FromResult<Boolean>(true);
         }
+
+        private Task<Boolean> DTask()
+        {
+
+            return Task.FromResult<Boolean>(true);
+        }
     }
 }
